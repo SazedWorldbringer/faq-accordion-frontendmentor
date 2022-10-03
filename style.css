@@ -36,3 +36,27 @@ body {
     var(--gradient-sftblue)
   );
 }
+
+.card {
+  background: #ffffff;
+  border-radius: 2rem;
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.card__image {
+}
+
+.card__text {
+}
+
+@media (min-width: 56rem) {
+  .card {
+    display: flex;
+  }
+
+  .card__image,
+  .card__text {
+    flex: 1;
+  }
+}
